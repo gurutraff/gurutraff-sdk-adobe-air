@@ -45,15 +45,15 @@ where:
 ### Step 3:  Showing ads
 a) In advance we recommend that you call ad caching using the method:
 
-    GuruTraff.cacheVideo("placementId");
+    GuruTraff.cacheVideo("placementName");
 
 b) Check if cached ads are available using the method:
 
-    GuruTraff.isReadyVideo("placementId");
+    GuruTraff.isReadyVideo("placementName");
 
 c) You can show ads using the method:
 
-    GuruTraff.showVideo("placementId");
+    GuruTraff.showVideo("placementName");
 
 d) To track changes in advertising conditions, you can subscribe to events
   - GuruTraffEvent.VIDEO_DID_CACHE    //resources were cached to display video ads
